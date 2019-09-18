@@ -1,0 +1,91 @@
+.container {
+  height: 840px;
+  width: 920px;
+  margin: 30px auto 0;
+  position: relative;
+  background: skyblue;
+
+  background: url(./images/bg.png) center center no-repeat / cover;
+  /* border: 20px solid #7dd9ff; */
+  border: 2px solid black;
+}
+.txt {
+  position: absolute;
+  height: 20px;
+  width: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  color: greenyellow;
+  /* border: 1px solid black; */
+}
+.time {
+  top: 15px;
+  left: 130px;
+}
+.score {
+  top: 15px;
+  left: 360px;
+}
+.btn {
+  /* height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; */
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+.btn button {
+  background: none;
+  border: none;
+  background-size: 100% 100%;
+
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.startBtn button {
+  width: 400px;
+  height: 240px;
+  background: url(./images/timg.jpg) center center no-repeat / contain;
+  margin-left: -200px;
+  margin-top: -120px;
+}
+.pauseBtn {
+  display: none;
+}
+.pauseBtn button {
+  width: 64px;
+  height: 64px;
+  background: url(./images/暂停.png) center center no-repeat / contain;
+  margin-left: -32px;
+  margin-top: -32px;
+}
+#snakeWrap {
+  height: 720px;
+  width: 800px;
+
+  background: transparent;
+  /* border: 20px solid #7dd9ff; */
+  /* box-sizing: border-box; */
+}
+/* #snake div {
+  height: 20px;
+  width: 20px;
+} */
+.snake-head {
+  background: url(./images/head.jpg) center center no-repeat / cover;
+  height: 20px;
+  width: 20px;
+}
+.snake-body {
+  background: url(./images/snake-body.jpg) center center no-repeat / cover;
+  border-radius: 40%;
+}
+.snake-food {
+  background: url(./images/球.png) center center no-repeat / cover;
+  height: 20px;
+  width: 20px;
+}
